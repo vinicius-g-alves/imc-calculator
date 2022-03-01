@@ -1,0 +1,81 @@
+body {
+  background-image: url(./images/background.jpg);
+  font: normal 20pt Arial;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+
+section {
+  background: lavender;
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.397);
+}
+
+footer {
+  color: aliceblue;
+}
+
+div#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 10px;
+  background-color: blueviolet;
+  color: aliceblue;
+  font-family: 'Courier New';
+  margin-bottom: 30px;
+}
+
+.btn:hover {
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 10px;
+  background-color:blue;
+  color: aliceblue;
+  font-family: 'Courier New';
+  margin-bottom: 30px;
+}
+
+.res {
+  padding: 30px;
+  color: aliceblue;
+  font-family: 'Courier New';
+  font-size: 25px;
+}
+
+.dados {
+  display: flex;
+  justify-content: space-around;
+}
+
+.campo1 {
+  border-radius: 7px;
+  font-size: inherit;
+  font-family: inherit;
+  padding: 0.1em;
+  width: 100%;
+  text-align: center;
+}
+
+.title {
+  font-size: 90px;
+  font-family:'Courier New';
+  margin-bottom: 50px;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
